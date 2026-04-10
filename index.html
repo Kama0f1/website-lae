@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>hey, lae. 🌊</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&family=Playfair+Display:ital,wght@0,700;1,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+
+  <!-- CURSOR PETAL -->
+  <div class="cursor-dot"></div>
+
+  <!-- ══════════════════════════════ HERO ══════════════════════════════ -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-text">LAE LAE LAE LAE LAE</div>
+
+    <div class="floating-img hachiware-float" id="hw1">
+      <img src="hachiware1.png" alt="Hachiware serving desserts" />
+    </div>
+
+    <div class="hero-center">
+      <p class="pre-title">psst. hey you. yes, you.</p>
+      <h1 class="hero-title">hey,<br/><span class="name-lae">lae.</span></h1>
+      <p class="hero-sub">there's something i've been meaning to tell you…</p>
+      <a href="#world" class="scroll-btn">keep scrolling ↓</a>
+    </div>
+
+    <div class="floating-img snoopy-float" id="sn1">
+      <img src="snoopy_world.png" alt="Snoopy holding globe" />
+      <p class="img-caption">that's you. my whole world. 🌎</p>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════ WORLD ══════════════════════════════ -->
+  <section class="section world-section" id="world">
+    <div class="section-inner">
+      <div class="world-img">
+        <img src="snoopy_hug.png" alt="Snoopy hugging Woodstock" />
+      </div>
+      <div class="world-text">
+        <span class="eyebrow">a tiny confession</span>
+        <h2>you make<br/><em>everything</em><br/>warmer.</h2>
+        <p>
+          the way you carry yourself — loud taste in music,
+          soft heart underneath it all — it gets me every single time.
+          you're the kind of person who orders tempura and somehow makes
+          it feel like the most elegant thing in the room.
+        </p>
+        <p class="red-note">
+          🍤 i would absolutely go to any tempura place. with you. always.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════ MUSIC TICKER ══════════════════════════════ -->
+  <div class="ticker-wrap">
+    <div class="ticker-track">
+      <span>SLEEPING WITH SIRENS</span>
+      <span class="dot">✦</span>
+      <span>ALICE IN CHAINS</span>
+      <span class="dot">✦</span>
+      <span>PANTERA</span>
+      <span class="dot">✦</span>
+      <span>KORN</span>
+      <span class="dot">✦</span>
+      <span>MEGADETH</span>
+      <span class="dot">✦</span>
+      <span>METALLICA</span>
+      <span class="dot">✦</span>
+      <span>MESHUGGAH</span>
+      <span class="dot">✦</span>
+      <span>HELLMERRY</span>
+      <span class="dot">✦</span>
+      <span>99ZED</span>
+      <span class="dot">✦</span>
+      <!-- repeat for infinite feel -->
+      <span>SLEEPING WITH SIRENS</span>
+      <span class="dot">✦</span>
+      <span>ALICE IN CHAINS</span>
+      <span class="dot">✦</span>
+      <span>PANTERA</span>
+      <span class="dot">✦</span>
+      <span>KORN</span>
+      <span class="dot">✦</span>
+      <span>MEGADETH</span>
+      <span class="dot">✦</span>
+      <span>METALLICA</span>
+      <span class="dot">✦</span>
+      <span>MESHUGGAH</span>
+      <span class="dot">✦</span>
+      <span>HELLMERRY</span>
+      <span class="dot">✦</span>
+      <span>99ZED</span>
+      <span class="dot">✦</span>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════ NOW PLAYING ══════════════════════════════ -->
+  <section class="section nowplaying-section" id="music">
+    <div class="nowplaying-inner">
+      <div class="vinyl-wrap">
+        <img src="snoopy_music.png" alt="Snoopy with headphones and vinyl" class="snoopy-music-img" />
+        <div class="vinyl-spin"></div>
+      </div>
+      <div class="nowplaying-text">
+        <span class="eyebrow eyebrow-white">♫ now playing — lae's playlist</span>
+        <h2 class="white-h2">your music<br/>lives in my<br/><em>head, rent-free.</em></h2>
+
+        <div class="playlist-list">
+          <div class="playlist-item" data-band="SWS">
+            <span class="band-tag">SWS</span>
+            <span class="song-name">crucify me</span>
+          </div>
+          <div class="playlist-item" data-band="SWS">
+            <span class="band-tag">SWS</span>
+            <span class="song-name">don't let the party die</span>
+          </div>
+          <div class="playlist-item" data-band="SWS">
+            <span class="band-tag">SWS</span>
+            <span class="song-name">gossip</span>
+          </div>
+          <div class="playlist-item" data-band="SWS">
+            <span class="band-tag">SWS</span>
+            <span class="song-name">wearing tommy ($b)</span>
+          </div>
+          <div class="playlist-item" data-band="SWS">
+            <span class="band-tag">SWS</span>
+            <span class="song-name">complete collapse</span>
+          </div>
+          <div class="playlist-item" data-band="SWS">
+            <span class="band-tag">SWS</span>
+            <span class="song-name">bloody knuckles</span>
+          </div>
+          <div class="playlist-item" data-band="99Z">
+            <span class="band-tag">99Z</span>
+            <span class="song-name">self sabotage</span>
+          </div>
+          <div class="playlist-item" data-band="99Z">
+            <span class="band-tag">99Z</span>
+            <span class="song-name">bakers dozen</span>
+          </div>
+          <div class="playlist-item" data-band="99Z">
+            <span class="band-tag">99Z</span>
+            <span class="song-name">two twelve subwoofer</span>
+          </div>
+          <div class="playlist-item" data-band="HM">
+            <span class="band-tag">HM</span>
+            <span class="song-name">literally every hellmerry song</span>
+          </div>
+        </div>
+
+        <p class="lyric-quote">
+          <em>"i'll be yours if you'll be mine"</em>
+          <span class="lyric-attr">— a vibe she definitely radiates</span>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════ REASONS ══════════════════════════════ -->
+  <section class="section reasons-section" id="reasons">
+    <h2 class="reasons-title">reasons i'm<br/><span class="red">hopelessly</span> into you</h2>
+    <div class="reasons-grid">
+      <div class="reason-card">
+        <div class="reason-img">
+          <img src="hachiware2.png" alt="Hachiware with camera" />
+        </div>
+        <p>you see the world in a way nobody else does 📷</p>
+      </div>
+      <div class="reason-card reason-card--red">
+        <div class="reason-icon">🍤</div>
+        <p>your tempura era has awakened something in me. i'm not the same.</p>
+      </div>
+      <div class="reason-card">
+        <div class="reason-icon">🎸</div>
+        <p>Pantera + Sleeping With Sirens on the same playlist is unhinged and perfect. just like you.</p>
+      </div>
+      <div class="reason-card reason-card--dark">
+        <div class="reason-img">
+          <img src="snoopy_flowers.png" alt="Snoopy with flowers" />
+        </div>
+        <p>you deserve someone who'd bring you flowers AND headbang with you. i volunteer.</p>
+      </div>
+      <div class="reason-card">
+        <div class="reason-img">
+          <img src="hachiware3.png" alt="Hachiware with drink" />
+        </div>
+        <p>everything is better when you're around. even strawberry floats hit different.</p>
+      </div>
+      <div class="reason-card reason-card--red">
+        <div class="reason-icon">🌊</div>
+        <p>lae. it's literally in your name. and it describes exactly what you do to me.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════ LETTER ══════════════════════════════ -->
+  <section class="section letter-section" id="letter">
+    <div class="letter-wrap">
+      <div class="letter-snoopy">
+        <img src="snoopy_letter.png" alt="Snoopy with love letter" />
+      </div>
+      <div class="letter-paper">
+        <p class="letter-date">april 2025 — somewhere warm, thinking of you</p>
+        <p class="letter-body">
+          dear lae,
+        </p>
+        <p class="letter-body">
+          i know you probably weren't expecting this. maybe you're reading this
+          with your playlist on in the background, maybe there's tempura nearby.
+          whatever the scene — i hope you're smiling.
+        </p>
+        <p class="letter-body">
+          i've been trying to find the right words. so instead i made you a
+          whole website because apparently that's the only language i speak.
+        </p>
+        <p class="letter-body">
+          you're someone who listens to Meshuggah and still manages to be the
+          softest, brightest part of any room. that's not a contradiction —
+          that's just you being impossibly cool.
+        </p>
+        <p class="letter-body">
+          so — will you give me a chance?
+        </p>
+        <p class="letter-sign">with a lot of feelings & a slight tempura obsession now,<br/>
+          <span class="sign-name">someone who really likes you 🐾</span>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════ THE QUESTION ══════════════════════════════ -->
+  <section class="section question-section" id="question">
+    <div class="hachiware-cake">
+      <img src="hachiware1.png" alt="Hachiware with cake" />
+    </div>
+
+    <div class="question-content">
+      <p class="question-eyebrow">okay. deep breath. here it goes.</p>
+      <h2 class="question-text">
+        lae,<br/>
+        will you<br/>
+        <span class="red">be mine?</span>
+      </h2>
+      <p class="question-small">
+        (hachiware worked really hard on that cake. snoopy brought flowers.
+        please don't let them down.)
+      </p>
+
+      <div class="btn-row">
+        <button class="btn-yes" id="yesBtn" onclick="handleYes()">
+          yes!! 🍓
+        </button>
+        <button class="btn-no" id="noBtn">
+          no
+        </button>
+      </div>
+
+      <p class="no-hint" id="noHint"></p>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════ YES SCREEN ══════════════════════════════ -->
+  <div class="yes-screen" id="yesScreen">
+    <div class="yes-content">
+      <img src="snoopy_hug.png" alt="Snoopy hug" class="yes-img" />
+      <h2 class="yes-title">SHE SAID YES!! 🎉🍓</h2>
+      <p class="yes-subtitle">lae, you just made someone the happiest person alive.</p>
+      <p class="yes-note">
+        🍤 tempura date is definitely happening.<br/>
+        🎸 also we're going to every concert possible.<br/>
+        🐾 hachiware and snoopy approve of this.
+      </p>
+      <div class="ticker-wrap ticker-wrap--yes">
+        <div class="ticker-track ticker-track--yes">
+          <span>SHE SAID YES</span><span class="dot">🌸</span>
+          <span>LAE IS THE BEST</span><span class="dot">🌸</span>
+          <span>TEMPURA DATE INCOMING</span><span class="dot">🌸</span>
+          <span>BEST DAY EVER</span><span class="dot">🌸</span>
+          <span>SHE SAID YES</span><span class="dot">🌸</span>
+          <span>LAE IS THE BEST</span><span class="dot">🌸</span>
+          <span>TEMPURA DATE INCOMING</span><span class="dot">🌸</span>
+          <span>BEST DAY EVER</span><span class="dot">🌸</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
